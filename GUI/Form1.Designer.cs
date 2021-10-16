@@ -97,14 +97,14 @@ namespace GUI
             this.textBoxB.Location = new System.Drawing.Point(211, 93);
             this.textBoxB.Name = "textBoxB";
             this.textBoxB.Size = new System.Drawing.Size(24, 23);
-            this.textBoxB.TabIndex = 4;
+            this.textBoxB.TabIndex = 2;
             // 
             // textBoxC
             // 
             this.textBoxC.Location = new System.Drawing.Point(165, 129);
             this.textBoxC.Name = "textBoxC";
             this.textBoxC.Size = new System.Drawing.Size(24, 23);
-            this.textBoxC.TabIndex = 18;
+            this.textBoxC.TabIndex = 3;
             this.textBoxC.TextChanged += new System.EventHandler(this.textBoxC_TextChanged);
             // 
             // textBoxD
@@ -112,7 +112,7 @@ namespace GUI
             this.textBoxD.Location = new System.Drawing.Point(211, 129);
             this.textBoxD.Name = "textBoxD";
             this.textBoxD.Size = new System.Drawing.Size(24, 23);
-            this.textBoxD.TabIndex = 6;
+            this.textBoxD.TabIndex = 4;
             // 
             // label4
             // 
@@ -150,14 +150,14 @@ namespace GUI
             this.textBoxN.Location = new System.Drawing.Point(165, 163);
             this.textBoxN.Name = "textBoxN";
             this.textBoxN.Size = new System.Drawing.Size(24, 23);
-            this.textBoxN.TabIndex = 12;
+            this.textBoxN.TabIndex = 5;
             // 
             // textBoxM
             // 
             this.textBoxM.Location = new System.Drawing.Point(211, 163);
             this.textBoxM.Name = "textBoxM";
             this.textBoxM.Size = new System.Drawing.Size(24, 23);
-            this.textBoxM.TabIndex = 13;
+            this.textBoxM.TabIndex = 6;
             // 
             // button1
             // 
@@ -295,21 +295,23 @@ namespace GUI
             this.textBox1.Location = new System.Drawing.Point(46, 305);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 28;
+            this.textBox1.TabIndex = 7;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_2);
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(46, 339);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 29;
+            this.textBox2.TabIndex = 8;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(46, 374);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 30;
+            this.textBox3.TabIndex = 9;
             // 
             // buttonA
             // 
